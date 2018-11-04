@@ -11,8 +11,8 @@ int main()
 	int uninitializedInt;
 	int initializedInt = 7;
 
-	cout << uninitializedInt << " is a random value" << endl;
-	cout << initializedInt << " was assigned an initial value" << endl;
+	cout << uninitializedInt << " is a random value\n";
+	cout << initializedInt << " was assigned an initial value\n";
 
 	return 0;
 }

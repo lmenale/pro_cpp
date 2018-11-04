@@ -1,3 +1,5 @@
+#include <iostream>
+
 enum class PieceType
 {
 	King = 1,
@@ -12,7 +14,7 @@ int main()
 
 	if (piece == PieceType::King)
 	{
-		/* ... */
+		std::cout << "King " << (int)piece << "\n";
 	}
 
 	return 0;

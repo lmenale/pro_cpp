@@ -15,9 +15,9 @@ int main()
 
 	// Output the values of an employee.
 	cout << "Employee: " << anEmployee.firstInitial << 
-							anEmployee.lastInitial << endl;
-	cout << "Number: " << anEmployee.employeeNumber << endl;
-	cout << "Salary: $" << anEmployee.salary << endl;
+							anEmployee.lastInitial << "\n";
+	cout << "Number: " << anEmployee.employeeNumber << "\n";
+	cout << "Salary: $" << anEmployee.salary << "\n";
 
 	return 0;
 }
